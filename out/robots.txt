@@ -1,0 +1,8 @@
+# *
+User-agent: *
+
+# Host
+Host: http://2dolist.com
+
+# Sitemaps
+Sitemap: http://2dolist.com/sitemap.xml

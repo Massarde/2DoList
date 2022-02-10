@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Oswald:wght@200;400;600&display=swap");
+@font-face {
+  font-family: 'Aqua';
+  src: url("/fonts/aqua/aqua.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.MAIN_CONTAINER .modal_background {
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.808);
+}
+
+.MAIN_CONTAINER .foreground {
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 377px;
+}
+/*# sourceMappingURL=index.module.css.map */

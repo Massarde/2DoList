@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Oswald:wght@200;400;600&display=swap");
+@font-face {
+  font-family: 'Aqua';
+  src: url("/fonts/aqua/aqua.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.MAIN_CONTAINER {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 5px solid #cacaca;
+  border-radius: 50%;
+  border-top: 5px solid #3b0d7a;
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 0.8s linear infinite;
+  /* Safari */
+  animation: spin 0.8s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=index.module.css.map */
