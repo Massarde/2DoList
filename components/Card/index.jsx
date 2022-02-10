@@ -26,7 +26,7 @@ export default function Card({ todo }) {
 	}
 	const deleteNote = async () => {
 		try {
-			await fetch(`http://localhost:3000/api/todo/${todo._id}`, {
+			await fetch(`https://zdolist.vercel.app/api/todo/${todo._id}`, {
 				method: 'DELETE',
 				headers: {
 					Accept: 'application/json',
@@ -40,7 +40,7 @@ export default function Card({ todo }) {
 	}
 	const updateNote = async () => {
 		try {
-			await fetch(`http://localhost:3000/api/todo/${todo._id}`, {
+			await fetch(`https://zdolist.vercel.app/api/todo/${todo._id}`, {
 				method: 'PUT',
 				headers: {
 					Accept: 'application/json',

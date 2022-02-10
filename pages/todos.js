@@ -64,7 +64,7 @@ export default function Todos({ userData }) {
 	}
 	const createNote = async () => {
 		try {
-			await fetch('http://localhost:3000/api/todo', {
+			await fetch('https://zdolist.vercel.app/api/todo', {
 				method: 'POST',
 				headers: {
 					Accept: 'application/json',
@@ -236,7 +236,7 @@ export const getServerSideProps = withPageAuthRequired({
 	async getServerSideProps(context) {
 		// Getting user data from Auth0
 		const user = getSession(context.req).user
-		const res = await fetch('http://localhost:3000/api/todo/')
+		const res = await fetch('https://zdolist.vercel.app/api/todo/')
 		const users = await res.json()
 		return {
 			props: { userData: users },
