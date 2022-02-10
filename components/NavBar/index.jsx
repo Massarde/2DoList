@@ -21,7 +21,7 @@ const Navbar = () => {
 						/>
 					</div>
 					<div className={css.text_title}>
-						<p>2DoList</p>
+						<p>ZDoList</p>
 					</div>
 				</div>
 				<div

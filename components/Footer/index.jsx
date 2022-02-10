@@ -6,7 +6,7 @@ const Footer = () => {
 
 	return (
 		<footer className={css.mainContainer}>
-			2DoList All Rights Reserved{' '}
+			zDoList All Rights Reserved{' '}
 			<div>
 				CopyRight &copy;&nbsp;
 				<Moment format=' YYYY' className={css.moment}>
